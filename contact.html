@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+
+    <audio id="bg-audio" src="japon-ambience.mpeg" loop preload="auto"></audio>
+
+    <!--  SES KONTROL BUTONU -->
+    <button class="sound-btn" onclick="toggleSound()">
+        🔊 Ses
+    </button>
+
+    <div class="menu-canvas">
+
+        <header>
+            <div class="menu-header">
+                <div class="logo-area">
+                    <p>RESTORAN</p>
+                    <h1>TADI GÜZEL</h1>
+                </div>
+                <div class="big-title">
+                    CONTACT
+                </div>
+            </div>
+
+            <nav class="navbar">
+                <div class="nav-logo">
+                    TADI GÜZEL
+                </div>
+                <button class="nav-toggle" aria-expanded="false" aria-label="Menü aç/kapa">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="menu.html">Menü</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="gallery.html">Galeri</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+
+            <div class="top-menu-title">
+                CONTACT
+            </div>
+        </header>
+
+        <main>
+
+        <section class="contact-hero">
+
+            <h1>
+                “SEN HİÇ JAPONYA’YA GİTTİN Mİ?”
+            </h1>
+
+            <p>
+                Geleneksel Japon lezzetleri ve modern atmosfer için
+                bizimle iletişime geçin.
+            </p>
+
+        </section>
+
+        <section class="contact-wrapper">
+
+            <div class="contact-info">
+
+                <h2>İletişim Bilgileri</h2>
+
+                <div class="info-box">
+                    <h3>Adres</h3>
+                    <p>Erzurum / Türkiye</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>Telefon</h3>
+                    <p>+90 555 555 55 55</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>E-Posta</h3>
+                    <p>info@chiakisato.com</p>
+                </div>
+
+                <div class="japanese-text">
+                    日本へ行ったことがありますか？
+                </div>
+
+            </div>
+
+            <form class="contact-form">
+
+                <input type="text" placeholder="Adınız Soyadınız" required>
+                <input type="email" placeholder="E-Posta Adresiniz" required>
+                <textarea placeholder="Mesajınız..." required></textarea>
+
+                <button type="submit">Gönder</button>
+
+            </form>
+
+        </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 TADI GÜZEL | Tüm Hakları Saklıdır</p>
+        </footer>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
